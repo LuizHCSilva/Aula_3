@@ -1,0 +1,45 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO PARA O MENU */
+.menu {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+    border-bottom: 3px solid black;
+}
+
+/* ESTILO PARA O LOGOTIPO */
+.logotipo {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 90px;
+    margin-top: -1.8%;
+    float: inline-start;
+}
+
+/* ESTILO PARA OS ITENS DO MENU */
+.menu-item {
+    display: inline-block;
+    margin: 0 20px;
+    color: black;
+}
+
+/* ESTILO PARA OS LINKS DO MENU */
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ESTILO PARA OS LINKS DO MENU QUANDO PASSAR O MOUSE POR CIMA */
+.menu-item:hover {
+    background-color: black;
+}
+
+.menu-item:hover a {
+    color: black;
+}
